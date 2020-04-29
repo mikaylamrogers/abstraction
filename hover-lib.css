@@ -2,17 +2,6 @@ body {
   background-image: url('back.jpg');
   background-size: cover;
   font-family: 'Manrope', sans-serif;
-  overflow: hidden;
-}
-
-h1 {
-  letter-spacing: -3px;
-  line-height: 0px;
-  font-size: 10vh;
-}
-
-.titles {
-  font-size: 7.1vh;
 }
 
 .date {
@@ -23,13 +12,6 @@ h1 {
 a:link, a:visited, a:active {
   text-decoration: none;
   color: black;
-}
-
-/* IMAGE APPEAR ON HOVER (code from this library, https://linkpeek.com/blog/images-on-hover-lib.html) */
-img.hover-lib-visible {
-  position: absolute;
-
-  width: 20%;
 }
 
 /* CHANGE TITLE COLORS ON HOVER */
@@ -108,3 +90,45 @@ img.hover-lib-visible {
 .mood:hover {
   color: #d90019;
 }
+
+/* PHONE DISPLAY */
+@media only screen and (max-width: 469px) {
+  h1 {
+    line-height: 0px;
+    font-size: 1vh;
+  }
+
+  body {
+    background-image: url('back.jpg');
+    background-size: cover;
+    font-size: 5vh;
+  }
+
+  /* IMAGE APPEAR ON HOVER (code from this library, https://linkpeek.com/blog/images-on-hover-lib.html) */
+  img.hover-lib-visible {
+    position: absolute;
+    max-width: 1vh;
+  }
+}
+
+/* LAPTOP DISPLAY */
+@media only screen and (min-width: 1084px) {
+  h1 {
+    letter-spacing: -3px;
+    line-height: 0px;
+    font-size: 10vh;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  /* IMAGE APPEAR ON HOVER (code from this library, https://linkpeek.com/blog/images-on-hover-lib.html) */
+  img.hover-lib-visible {
+    position: absolute;
+    width: 20%;
+  }
+
+  .titles {
+    font-size: 7.1vh;
+  }
