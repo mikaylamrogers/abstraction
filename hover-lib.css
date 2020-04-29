@@ -19,6 +19,7 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 
+/* link title colors */
 a:link, a:visited, a:active {
   text-decoration: none;
   color: black;
@@ -27,6 +28,7 @@ a:link, a:visited, a:active {
 /* IMAGE APPEAR ON HOVER (code from this library, https://linkpeek.com/blog/images-on-hover-lib.html) */
 img.hover-lib-visible {
   position: absolute;
+
   width: 20%;
 }
 
