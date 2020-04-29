@@ -1,0 +1,108 @@
+body {
+  background-image: url('paper.jpg');
+  background-size: cover;
+  font-family: 'Manrope', sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  letter-spacing: -3px;
+  line-height: 0px;
+  font-size: 10vh;
+}
+
+.titles {
+  font-size: 7.1vh;
+}
+
+.date {
+  font-family: 'Libre Baskerville', serif;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* IMAGE APPEAR ON HOVER (code from this library, https://linkpeek.com/blog/images-on-hover-lib.html) */
+img.hover-lib-visible {
+  position: absolute;
+  width: 20%;
+}
+
+/* CHANGE TITLE COLORS ON HOVER */
+.rebel:hover {
+  color: #eb3d34;
+}
+
+.farewell:hover {
+  color: #e88a17;
+}
+
+.jojo:hover {
+  color: #e8d717;
+}
+
+.knives:hover {
+  color: #84e813;
+}
+
+.hill:hover {
+  color: #0522ff;
+}
+
+.lala:hover {
+  color: #6f00ff;
+}
+
+.ten:hover {
+  color: #f59fcd;
+}
+
+.marriage:hover {
+  color: #d92946;
+}
+
+.parasite:hover {
+  color: #db21bc;
+}
+
+.tiffany:hover {
+  color: #9a79fc;
+}
+
+.ladybird:hover {
+  color: #5cd8f7;
+}
+
+.prada:hover {
+  color: #10b374;
+}
+
+.boy:hover {
+  color: #5edb42;
+}
+
+.little:hover {
+  color: #d0e62e;
+}
+
+.joker:hover {
+  color: #f09d37;
+}
+
+.spirited:hover {
+  color: #eb5436;
+}
+
+.rams:hover {
+  color: #edc615;
+}
+
+.king:hover {
+  color: #77de4e;
+}
+
+.mood:hover {
+  color: #d90019;
+}
